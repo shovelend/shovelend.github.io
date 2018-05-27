@@ -1,0 +1,19 @@
+{
+  "name": "shovelend.github.io",
+  "version": "1.0.0",
+  "description": "Attila's portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shovelend/shovelend.github.io.git"
+  },
+  "author": "shovelend",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shovelend/shovelend.github.io/issues"
+  },
+  "homepage": "https://github.com/shovelend/shovelend.github.io#readme"
+}

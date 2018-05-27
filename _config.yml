@@ -1,1 +1,15 @@
-theme: jekyll-theme-cayman
+# Site settings
+title: Attila Molnar
+email: attila.molnar1993@gmail.com
+url: https://shovelend.github.io
+permalink: /:title/
+
+# Build settings
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'vendor', 'node_modules/']
+plugins:
+  - jekyll-seo-tag
+
+# Social
+disqus: shovelend 
+twitter_username: shovelend93
+github_username: shovelend
