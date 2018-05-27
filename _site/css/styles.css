@@ -101,26 +101,33 @@ ul { margin: 0 0 1.5rem 0; }
 }
 
 .hero {
+  padding-top: 2rem;
+}
+
+.hero-text {
   float: right;
   color: black;
   padding-right: 10%;
 }
 
 @media (min-width: 855px){
-  .hero{
+  .hero-text {
     color: white;
   }
 }
 
 .Nav {
-  list-style-type: none;
-  margin: 0, 15px, 0, 0;
+  margin: 0 15px 0 0;
   padding: 16px;
   overflow: hidden;
   background-color: rgba(0,0,0,.4);
 }
 
-.Nav li{
+.list {
+  list-style-type: none;
+}
+
+.Nav .list li{
   float: right;
   padding-right: 8px;
   padding-left: 8px;

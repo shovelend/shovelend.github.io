@@ -1,0 +1,14 @@
+{
+    "short_name": "AM",
+    "name": "Attila Molnar",
+    "start_url": "index.html",
+    "background_color": "#17778f",
+    "theme_color": "#17778f",
+    "display": "standalone",
+    "icons": [{
+      "src": "images/profile.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }]
+  }
+  
