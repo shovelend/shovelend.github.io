@@ -2,7 +2,7 @@ importScripts('/cache-polyfill.js');
 
 self.addEventListener('install', function(e) {
  e.waitUntil(
-   caches.open('shovelend-v1').then(function(cache) {
+   caches.open('shovelend-v2').then(function(cache) {
      return cache.addAll([
        '/',
        '/manifest.json',
