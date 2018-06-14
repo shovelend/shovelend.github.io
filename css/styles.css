@@ -32,7 +32,6 @@ ul { margin: 0 0 1.5rem 0; }
 
 .name {
   float: left;
-  padding-left: 2rem;
 }
 
 .about { 
@@ -130,7 +129,6 @@ ul { margin: 0 0 1.5rem 0; }
 .Nav .list li{
   float: right;
   padding-right: 8px;
-  padding-left: 8px;
 }
 
 .Nav a,
