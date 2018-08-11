@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <!-- Begin Jekyll SEO tag v2.4.0 -->
 <title>Attila Molnar | Portfolio site</title>
 <meta name="generator" content="Jekyll v3.7.3" />
@@ -48,8 +48,8 @@
     <!-- End Google Tag Manager -->
   </head>
 
-  <body>
-   <div class="Header">
+<body>
+  <div class="Header">
   <div class="Nav">
     <ul class="list">
     <li>
@@ -95,6 +95,8 @@
   <div class="hero">
     <img src="images/profile.jpg" alt="McFace" width="20%" />
     <h1 class="hero-text">Let's build something great together!</h1>
+    <canvas id="k8s" data-tilt></canvas>
+    <canvas id="firebase" data-tilt></canvas>
   </div>
 </div>
 
@@ -157,13 +159,18 @@
     </a>
   </div>
 </section>
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
     crossorigin="anonymous">
-   <script>
-    if('serviceWorker' in navigator) {
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+  <script src="/scripts/vanilla-tilt.min.js"></script>
+  <script src="/scripts/particles.js"></script>
+  
+  <script>
+    if ('serviceWorker' in navigator) {
       navigator.serviceWorker
-               .register('/sw.js');
+        .register('/sw.js');
     }
-    </script>
-  </body>
+  </script>
+</body>
+
 </html>

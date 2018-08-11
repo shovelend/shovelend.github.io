@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
-   {{ content }}
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+<body>
+  {{ content }}
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
     crossorigin="anonymous">
-   <script>
-    if('serviceWorker' in navigator) {
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+  <script src="/scripts/vanilla-tilt.min.js"></script>
+  <script src="/scripts/particles.js"></script>
+  
+  <script>
+    if ('serviceWorker' in navigator) {
       navigator.serviceWorker
-               .register('/sw.js');
+        .register('/sw.js');
     }
-    </script>
-  </body>
+  </script>
+</body>
+
 </html>
