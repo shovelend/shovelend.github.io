@@ -9,7 +9,7 @@ self.addEventListener('install', function(e) {
        '/index.html',
        '/css/styles.css',
        '/images/cater_me.png',
-       '/images/profile.png',
+       '/images/profile.jpg',
        '/images/seylum_icon.png'
      ]);
    })

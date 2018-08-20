@@ -6,12 +6,12 @@
     "theme_color": "#17778f",
     "display": "standalone",
     "icons": [{
-      "src": "images/profile.png",
+      "src": "images/profile.jpg",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "images/profile.png",
+      "src": "images/profile.jpg",
       "sizes": "192x192",
       "type": "image/png"
     }
