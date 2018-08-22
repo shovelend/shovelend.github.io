@@ -16,7 +16,23 @@ body {
   line-height: 1.5;
 }
 
-canvas{padding:0;margin:0;}
+#k8s {
+  position: relative;
+  width: 96px;
+  left: 5%;
+}
+
+#firebase {
+  position: relative;
+  width: 96px;
+  left: 10%;
+}
+
+#react {
+  position: relative;
+  width: 15%;
+  left: 15%;
+}
 
 a { color: #0369a2; }
 
@@ -34,6 +50,11 @@ ul { margin: 0 0 1.5rem 0; }
 
 .name {
   float: left;
+}
+
+#profile {
+  width: 20%; 
+  min-width: 96px;
 }
 
 .about { 
@@ -118,6 +139,12 @@ ul { margin: 0 0 1.5rem 0; }
 @media (min-width: 855px){
   .hero-text {
     color: white;
+  }
+  #k8s {
+    width: 15%;
+  }
+  #firebase {
+    width: 15%
   }
 }
 

@@ -93,10 +93,14 @@
     </div>
   </div>
   <div class="hero">
-    <img src="images/profile.jpg" alt="McFace" width="20%" />
+    <img id="profile" src="images/profile.jpg" alt="McFace" />
     <h1 class="hero-text">Let's build something great together!</h1>
-    <canvas id="k8s" data-tilt></canvas>
-    <canvas id="firebase" data-tilt></canvas>
+    <a title="Kubernetes - container orchestration" href="https://kubernetes.io/" target="_blank" rel="noreferrer">
+      <canvas id="k8s" data-tilt></canvas>
+    </a>
+    <a title="Firebase - create powerful apps on all platforms" href="https://firebase.google.com" target="_blank" rel="noreferrer">
+      <canvas id="firebase" data-tilt></canvas>
+    </a>
   </div>
 </div>
 
@@ -163,7 +167,8 @@
     crossorigin="anonymous">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
   <script src="/scripts/vanilla-tilt.min.js"></script>
-  <script src="/scripts/particles.js"></script>
+  <script src="/scripts/firebase-particles.js"></script>
+  <script src="/scripts/k8s-particles.js"></script>
   
   <script>
     if ('serviceWorker' in navigator) {

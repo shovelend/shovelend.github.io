@@ -10,7 +10,12 @@ self.addEventListener('install', function(e) {
        '/css/styles.css',
        '/images/cater_me.png',
        '/images/profile.jpg',
-       '/images/seylum_icon.png'
+       '/images/seylum_icon.png',
+       '/images/k8s.png',
+       '/images/firebase.png',
+       '/scripts/k8s-particles.js',
+       '/scripts/firebase-particles.js',
+       '/scripts/vanilla-tilt.min.js'
      ]);
    })
  );

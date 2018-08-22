@@ -4,6 +4,18 @@ You can use the [editor on GitHub](https://github.com/shovelend/shovelend.github
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+### Run it locally
+
+Install ruby 2.3 or higher
+
+Install bundler 1.14 or higher: gem install bundler
+
+Install dependencies: bundle install
+
+Build and serve the site: `bundle exec jekyll serve`
+
+View blog at http://localhost:4000.
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
