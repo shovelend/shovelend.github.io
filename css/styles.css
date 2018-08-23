@@ -133,11 +133,16 @@ ul { margin: 0 0 1.5rem 0; }
 .hero-text {
   float: right;
   color: black;
-  padding-right: 10%;
+  width: 100%;
 }
 
 @media (min-width: 855px){
+  .hero {
+    min-width: 855px;
+  }
+
   .hero-text {
+    width: 35%;
     color: white;
   }
   #k8s {
