@@ -50,6 +50,7 @@ ul { margin: 0 0 1.5rem 0; }
 
 .name {
   float: left;
+  padding-left: 44px;
 }
 
 #profile {
@@ -106,9 +107,19 @@ ul { margin: 0 0 1.5rem 0; }
 
 .Header a { color: #65c5fc; }
 
+.Nav {
+  padding: 4px 2px 4px 0;
+  overflow: hidden;
+  background-color: rgba(0,0,0,.4);
+}
+
 @media (min-width: 768px) {
   .Header {
     background-image: linear-gradient(120deg, #155799, #159957);
+  }
+
+  .Nav {
+    padding: 16px;
   }
 
   .Nav .list li{
@@ -153,20 +164,13 @@ ul { margin: 0 0 1.5rem 0; }
   }
 }
 
-.Nav {
-  margin: 0 15px 0 0;
-  padding: 16px;
-  overflow: hidden;
-  background-color: rgba(0,0,0,.4);
-}
-
 .list {
   list-style-type: none;
 }
 
 .Nav .list li{
   float: right;
-  padding-right: 8px;
+  padding-right: 4px;
 }
 
 .Nav a,
