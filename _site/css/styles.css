@@ -46,11 +46,9 @@ p {
   line-height: 1.4;
 }
 
-ul { margin: 0 0 1.5rem 0; }
-
 .name {
   float: left;
-  padding-left: 44px;
+  margin: 0;
 }
 
 #profile {
@@ -120,6 +118,11 @@ ul { margin: 0 0 1.5rem 0; }
 
   .Nav {
     padding: 16px;
+  }
+
+  .Nav ul {
+    float: right;
+    margin: 0;
   }
 
   .Nav .list li{

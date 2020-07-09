@@ -8,6 +8,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Install ruby 2.3 or higher
 
+sudo apt-get install ruby ruby-dev
+
 Install bundler 1.14 or higher: gem install bundler
 
 Install dependencies: bundle install
