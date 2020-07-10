@@ -48,7 +48,7 @@ p {
 
 .name {
   float: left;
-  margin: 0;
+  margin: 8px;
 }
 
 #profile {
@@ -125,8 +125,8 @@ p {
     margin: 0;
   }
 
-  .Nav .list li{
-    padding-left: 8px;
+  .name {
+    margin: 0;
   }
 }
 
@@ -169,11 +169,12 @@ p {
 
 .list {
   list-style-type: none;
+  padding-left: 0;
 }
 
 .Nav .list li{
-  float: right;
-  padding-right: 4px;
+  padding-left: 8px;
+  display: inline;
 }
 
 .Nav a,

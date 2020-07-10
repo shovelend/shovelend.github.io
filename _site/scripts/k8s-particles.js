@@ -41,7 +41,7 @@ var render = function() {
   for (var i = 0, j = particles.length; i < j; i++) {
     var particle = particles[i];
     ctx.fillStyle = particle.color;
-    ctx.fillRect(particle.x1*2, particle.y1*2 , 2,2);
+    ctx.fillRect(particle.x1*2, particle.y1*2 , 3,4);
   }
 
 };
