@@ -40,7 +40,7 @@ var renderFirebase = function() {
   for (var i = 0, j = firebaseParticles.length; i < j; i++) {
     var particle = firebaseParticles[i];
     firebaseCtx.fillStyle = particle.color;
-    firebaseCtx.fillRect(particle.x1*2, particle.y1*2 , 2,2);
+    firebaseCtx.fillRect(particle.x1*2, particle.y1*2 , 3,4);
   }
 
 };
